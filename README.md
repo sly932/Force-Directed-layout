@@ -22,8 +22,12 @@ $$F_{repulsion} = \frac{k_r}{distance^2}$$
 $$F_{repulsion} = \frac{k_r * m_A * m_B * y}{distance^2}$$
 #### Calculate the component forces on the x and y axis
 $$\Delta x, \Delta y = x_A - x_B, y_A - y_B$$  
-$$𝐹_𝑟𝑒𝑝𝑢𝑙𝑠𝑖𝑜𝑛_𝑋=𝐹_𝑟𝑒𝑝𝑢𝑙𝑠𝑖𝑜𝑛∗Δ𝑥/𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑒$$  
-$$𝐹_𝑟𝑒𝑝𝑢𝑙𝑠𝑖𝑜𝑛_Y=𝐹_𝑟𝑒𝑝𝑢𝑙𝑠𝑖𝑜𝑛∗Δy/𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑒$$  
+ 𝐹_{𝑟𝑒𝑝𝑢𝑙𝑠𝑖𝑜𝑛}_𝑋=𝐹_{𝑟𝑒𝑝𝑢𝑙𝑠𝑖𝑜𝑛}∗Δ𝑥/𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑒
+ 𝐹_{𝑟𝑒𝑝𝑢𝑙𝑠𝑖𝑜𝑛}_Y=𝐹_{𝑟𝑒𝑝𝑢𝑙𝑠𝑖𝑜𝑛}∗Δy/𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑒     
+$$   
+#### Update the repulsive forces experienced by A and B respectively
+$$repulsion_{A_X} += F_{repulsion_X}$$ 
+$$repulsion_{A_Y} += F_{repulsion_Y}$$
 
 
 
