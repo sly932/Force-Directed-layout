@@ -66,10 +66,13 @@ $$𝑥_𝑁^′,𝑦_𝑁^′=𝑥_𝑁+Δ𝑥_𝑁,y_N+Δ𝑦_𝑁$$
 ```
 python [xxx.py] -h
 ```
-- To run
+- Quick startup
+Run and make dir ```imgs/test```, img of each epoch is saved in ```imgs/test/imgs/```
 ```
-python ForceDirected.py --load_edge --node_num --notsave --notdraw --dir test
-
+python ForceDirected.py --load_edge --node_num 499 --dir test
+```
+Get demo video
+```
 python writeVideo.py --fps 200 --dir test --name test_video
 ```
 - recommendation  
